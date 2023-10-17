@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iterables</title>
+</head>
+<body>
+    <h1>Iterables</h1>
+
+<H1>Iterables</H1>
+In JavaScript, an iterable is an object that implements the Iterable protocol, which allows it to be iterated over using a loop or other constructs that support iteration. Iterables include arrays, strings, maps, sets, and more. An iterable provides a standardized way to access its elements sequentially.
+<H3>Iterable Protocol:</H3>
+An object is considered iterable if it has a method with the key Symbol.iterator that returns an iterator. The iterator is an object with a next method that returns an object with properties value (the current value) and done (a boolean indicating whether the iteration is complete).
+<H3>sing Iterables:</H3>
+To iterate over an iterable, you can use a for...of loop, the spread operator, or the Array.from method. These constructs automatically handle iteration over the iterable.
+<H3>Custom Iterables:</H3>
+You can create your own iterable objects by implementing the Symbol.iterator method that returns an iterator. The iterator must have a next method that returns the next value and whether the iteration is complete.
+
+    <script src="./script.js"></script>
+</body>
+</html>
